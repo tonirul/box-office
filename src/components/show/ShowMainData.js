@@ -22,7 +22,8 @@ const ShowMainData = ({ name, rating, summary, tags, image }) => {
         />
 
         <div>
-          Tags:{' '}
+          Tags:
+          {' '}
           <TagList>
             {tags.map((tag, i) => (
               <span key={i}>{tag}</span>

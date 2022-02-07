@@ -5,10 +5,16 @@ const Details = ({ status, premiered, network }) => {
   return (
     <DetailsWrapper>
       <p>
-        Status: <span>{status}</span>
+        Status: 
+        {' '}
+        <span>{status}</span>
       </p>
       <p>
-        Premiered {premiered} {network ? `on ${network.name}` : null}
+        Premiered 
+        {' '}
+        {premiered} 
+        {' '}
+        {network ? `on ${network.name}` : null}
       </p>
     </DetailsWrapper>
   );
